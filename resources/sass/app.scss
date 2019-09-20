@@ -1,0 +1,137 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+html {
+    margin: 0;
+}
+
+h1 {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Josefin slab', serif !important;
+    font-weight: 500;
+    background: $body-bg;
+    margin: 0;
+    padding:0;
+}
+
+uk-h1, .uk-h2, .uk-h3, .uk-h4, .uk-h5, .uk-h6, .uk-heading-2xlarge, .uk-heading-large, .uk-heading-medium, .uk-heading-small, .uk-heading-xlarge, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Josefin slab', serif !important;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    color: $pink;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+    color: #faf4f5;
+    opacity: 0.50;
+}
+
+button {
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    color: #faf4f5;
+    opacity: 0.50;
+}
+
+[v-cloak] > * { display:none !important; }
+
+.uk-text-pink {
+    color: #faf4f5 !important;
+}
+
+.uk-text-dark {
+    color: #000 !important;
+}
+
+.uk-button-pink {
+    color: #000 !important;
+    background-color: #f7e9e9 !important;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.uk-background-pink {
+    background-color: #f7e9e9 !important;
+}
+
+.uk-navbar-item, .uk-navbar-nav > li > a, .uk-navbar-toggle {
+    font-family: 'Josefin slab', sans-serif !important;
+}
+
+.uk-logo {
+    font-size: 35px;
+    font-family: 'Parisienne', cursive !important;
+}
+
+.uk-container-small {
+    max-width: 47rem;
+}
+
+#Header1 #header-inner img {
+    margin: 0px auto;
+    max-width: 100% !important;
+    text-align: center;
+}
+
+#Header1_headerimg {
+    height: auto !important;
+}
+
+.image--background {
+    margin: 0px auto;
+    max-width: 100% !important;
+    text-align: center;
+    padding-top: 60px;
+    height: auto;
+}
+
+.uk-input:focus, .uk-select:focus, .uk-textarea:focus {
+    border-color: #faf4f5;
+}
+
+.profile--photo {
+    height: 190px;
+    width: 190px;
+}
+
+.uk-offcanvas-bar {
+    color: #000 !important;
+    background: #fff;
+}
+
+.uk-search-input::placeholder {
+    color: #999 !important;
+}
